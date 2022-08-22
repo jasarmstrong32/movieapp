@@ -115,7 +115,7 @@ window.addEventListener('click', (event) => {
 let favorites = {};
 let faves = document.querySelectorAll("input[type='checkbox']");
 
-function favorites() {
+function favorite() {
   for (let i = 0; i < faves.length; i++) {
     faves[i].addEventListener("click", displayFaves);
   }
